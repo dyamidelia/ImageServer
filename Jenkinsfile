@@ -8,7 +8,7 @@ pipeline {
   stages {
     stage('Test Code') {
       steps {
-        sh '.sh'
+        echo 'Testing My branch'
       }
     }
   }
